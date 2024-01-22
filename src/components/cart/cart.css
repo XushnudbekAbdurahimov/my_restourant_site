@@ -1,0 +1,95 @@
+.cart_container {
+     width: 90%;
+     margin: auto;
+     padding-top: 150px;
+}
+
+.cart_table {
+     width: 100%;
+     height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.table_tr {
+     width: 190vh;
+     height: 260px;
+     border: 2px solid black;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     border-radius: 20px;
+     background-color: rgba(220, 202, 237, 0.308);
+}
+
+.price_table {
+     /* border: 1px solid; */
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+
+
+}
+
+.price_table h1 {
+     float: top;
+     border-bottom: 2px solid black
+}
+
+.price_table h3 {
+     text-align: center;
+
+}
+
+.top_nav {
+     width: 100%;
+     position: absolute;
+     margin-top: -215px;
+}
+
+.top_nav ul {
+     list-style: none;
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.cart_img {
+     text-align: center;
+     margin-left: -80px;
+}
+
+.price_table {
+     padding-left: 30px;
+}
+.price_table h3 {
+     position: absolute;
+}
+
+.minus {
+     width: 150px;
+     background-color: rgba(255, 0, 0, 0.41);
+     position: absolute;
+     margin-top: -50px;
+     font-size: 35px;
+     color: white;
+}
+
+.plus {
+     width: 150px;
+     background: rgba(0, 128, 0, 0.41);
+     position: absolute;
+     font-size: 35px;
+     color: white;
+}
+.nechta h4{
+     position: absolute;
+}
+.remove{
+     position: absolute;
+     width: 150px;
+     margin-top: 50px;
+}

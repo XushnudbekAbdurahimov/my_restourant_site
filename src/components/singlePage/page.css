@@ -1,0 +1,47 @@
+.cards_s{
+     width: 40%;
+     height: 30vh;
+     position: absolute;
+     top: 0;
+     z-index: 156895;
+     border-radius: 25px;
+     background: linear-gradient(45deg, yellow, orange);
+
+}
+.card_image{
+     width: 100px;
+     height: 150px;
+     border-radius: 50%;
+     margin-top: 25px;
+     margin-left: 20px;
+}
+.Card{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.btn_cart{
+     width: 100px;
+     height: 150px;
+     margin-top: 25px;
+     margin-right: 20px;
+     border-radius: 50%;
+     background: linear-gradient(45deg, yellow, orange);
+}
+.title_cart{
+     margin-left: 50px;
+}
+.x_div{
+     position: absolute;
+     margin-left: 570px;
+     margin-top: -140px;
+}
+.x_div button{
+     width: 20px;
+     height: 20px;
+     background: linear-gradient(45deg, yellow, orange);
+
+}
+.nom_cart{
+     margin-top: 5px;
+}

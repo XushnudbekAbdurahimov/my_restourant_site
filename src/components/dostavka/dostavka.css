@@ -1,0 +1,149 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.Dostavka {
+     width: 100%;
+     height: 100vh;
+     background-color: rgb(164, 2, 2);
+     overflow: hidden;
+}
+
+.circle10 {
+     width: 250px;
+     height: 250px;
+     border-radius: 50%;
+     margin-top: -100px;
+     margin-left: -100px;
+     Backdrop-filter: blur(15px);
+     background: rgba(255, 255, 255, 0.2);
+     position: absolute;
+     margin-top: 150px;
+}
+
+.circle20 {
+     width: 150px;
+     height: 150px;
+     float: right;
+     margin-right: 50px;
+     border-radius: 50%;
+     Backdrop-filter: blur(15px);
+     position: absolute;
+     background: rgba(255, 255, 255, 0.2);
+     margin-left: 850px;
+     margin-top: 150px;
+}
+
+.circle30 {
+     width: 180px;
+     height: 180px;
+     float: right;
+     margin-right: 50px;
+     border-radius: 50%;
+     Backdrop-filter: blur(15px);
+     position: absolute;
+     background: rgba(255, 255, 255, 0.2);
+     margin-left: 1250px;
+     margin-top: 520px;
+}
+
+.circles {
+     position: relative;
+}
+
+.Dostavka h1 {
+     font-size: 50px;
+     text-align: center;
+     margin-top: 50px;
+     color: rgba(255, 255, 255, 0.819);
+     Backdrop-filter: blur(15px);
+     font-family: Rubik Scribble;
+
+}
+
+.inputs {
+     width: 80%;
+     margin: auto;
+     height: 70%;
+     margin-top: 40px;
+     z-index: 10;
+     position: relative;
+     border-radius: 15px;
+     background-color: rgba(255, 255, 255, 0.2);
+}
+
+.abs {
+     display: flex;
+     justify-content: space-between;
+     width: 79%;
+     margin: auto;
+     padding-right: 150px;
+     padding-left: 150px;
+}
+
+.saw {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+
+.saw h3 {
+     font-size: 25px;
+     font-weight: 500;
+     font-family: Sevillana;
+
+}
+
+.abs p {
+     font-size: 25px;
+     font-weight: 500;
+     font-family: Sevillana;
+     cursor: pointer;
+
+}
+
+.abs p:active .products {
+     display: block;
+}
+
+.products {
+     position: absolute;
+     width: 800px;
+     margin-top: 400px;
+     border: 2px solid rgb(240, 95, 95);
+     border-radius: 10px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     background: rgba(223, 72, 72, 0.708);
+     z-index: 1;
+     /* display: none; */
+}
+
+.products ul {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     list-style: none;
+     width: 80%;
+     color: white;
+}
+
+.products ul li {
+     display: flex;
+}
+
+.products ul li h3 {
+     margin-left: 5px;
+}
+
+.products ul li input {
+     width: 20px;
+}
+
+.inputs {
+     overflow: hidden;
+}
+
